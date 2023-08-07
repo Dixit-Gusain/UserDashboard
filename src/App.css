@@ -94,7 +94,6 @@
     .HomeNav {
       display: none;
       width: 25%;
-      /* height: 100vh; */
       z-index: 1;
     }
   }
@@ -108,7 +107,6 @@
       display: block;
     }
   }
-
   .myhomenavbar #mybtn {
     display: none;
   }
@@ -121,6 +119,7 @@
 
   .myhomenavbar button {
     color: rgb(123, 128, 154);
+    padding: 7px
   }
 
   .HomeBody {
@@ -152,6 +151,7 @@
   @media screen and (max-width:1000px) {
     #homebodycont1 {
       width: 100%;
+      top: 5%;
     }
   }
 
@@ -177,11 +177,6 @@
     -webkit-box-shadow: 23px 28px 63px -68px rgba(38, 38, 38, 1);
     -moz-box-shadow: 23px 28px 63px -68px rgba(38, 38, 38, 1);
     box-shadow: 23px 28px 63px -68px rgba(38, 38, 38, 1);
-  }
-
-  Textfield {
-    background-color: #444a52;
-    height: 10px;
   }
 
   .color1 {
@@ -219,9 +214,12 @@
   .datainsidecontainer {
     margin-top: -20px;
   }
-
-  .chartbox {
-    height: 180px;
+  @media screen and (max-width:992px) {
+    
+    .datainsidecontainer{
+      margin-top: -3px;
+     
+    }
   }
 
   .mytableimg {
@@ -330,14 +328,14 @@
     font-size: small;
   }
 
-  .mytablecontainer {
+  /* .mytablecontainer {
     display: flex;
     flex-direction: row;
-  }
+  } */
 
   .mytablecontainer img {
-    display: flex;
-    flex-direction: row;
+    /* display: flex; */
+    /* flex-direction: row; */
     width: 2.5rem;
     border-radius: 50%;
   }
