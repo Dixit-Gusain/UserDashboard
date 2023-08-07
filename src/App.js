@@ -28,7 +28,7 @@ import LoginIcon from '@mui/icons-material/Login';
 import AssignmentIcon from '@mui/icons-material/Assignment';
 import { Link } from 'react-router-dom';
 
-function App(props) {
+function App() {
 
   const [mainSidenav, setmainSidenav] = useState("HomeNav");
   const [mainbodydiv, setmainbodydiv] = useState("HomeBody");
@@ -101,8 +101,8 @@ function App(props) {
                     <span className='p-2'>
                         <HomeIcon className='fs-6' />
                     </span >
-                    /<span className='ps-1'>{}</span >
-                    <h6 className='ps-2'>Dashboard</h6>
+                    /<span className='ps-1'>Dashboard</span >
+                    <h6 className='ps-4'>Home</h6>
                 </div >
               <div className="container text-end myhomenavbar p-2">
                 <TextField className=' ' size="small" label="search" />
