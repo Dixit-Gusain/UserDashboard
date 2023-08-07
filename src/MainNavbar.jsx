@@ -27,7 +27,6 @@ function MainNavbar(props) {
                     <h6 className='ps-2'>Dashboard</h6>
                 </div >
                 <div className="container text-end myhomenavbar p-2">
-                    <TextField className=' ' size="small" label="search" />
                     <button className='btn border-0'><AccountCircleIcon /></button>
                     <button className='btn border-0'><SettingsIcon /></button>
                     <button className='btn border-0'><NotificationsIcon /></button>
