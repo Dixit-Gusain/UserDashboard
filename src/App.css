@@ -327,15 +327,7 @@
     color: rgb(118, 122, 128);
     font-size: small;
   }
-
-  /* .mytablecontainer {
-    display: flex;
-    flex-direction: row;
-  } */
-
   .mytablecontainer img {
-    /* display: flex; */
-    /* flex-direction: row; */
     width: 2.5rem;
     border-radius: 50%;
   }
@@ -343,8 +335,6 @@
   #mytable img {
     width: 1.8rem;
   }
-
-
   .color5 {
     color: white;
     background: linear-gradient(195deg, rgb(66, 66, 74), rgb(25, 25, 25));
@@ -406,7 +396,6 @@
   @media screen and (max-width:992px) {
     .notification {
       width: 100%;
-      /* height: fit-content; */
     }
   }
 
@@ -419,7 +408,6 @@
   }
 
   @media screen and (max-width:992px) {
-
     .notificationdiv2 {
       width: 100%;
     }
@@ -456,8 +444,6 @@
     position: relative;
     top: 60%;
     margin-top: -5%;
-    /* left: 0%;
-    right: 0%; */
     width: 94%;
     border-radius: 0.3rem;
     z-index: 1;
@@ -489,7 +475,6 @@
   }
 
   .myprofilecard img {
-    /* width: 15rem; */
     object-fit: contain;
   }
 
@@ -580,8 +565,7 @@
     left: 0%;
     right: 0%;
     margin: auto;
-    padding: 27px;
-    padding-top: 140px;
+    padding: 140px 60px 30px 60px;
   }
 
   @media screen and (max-width:994px) {

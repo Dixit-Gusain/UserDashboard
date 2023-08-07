@@ -17,7 +17,7 @@ function SignUp() {
                         Enter your email and password to register
                     </div>
                 </div>
-                <div className="SignUPdiv2 bg-white border-0 rounded d-flex flex-column ">
+                <div className="SignUPdiv2 bg-white border-0 rounded d-flex flex-column">
 
                     <TextField className='my-1' id="standard-basic" label="Name" variant="standard" />
                     <TextField className='my-1' id="standard-basic" label="Email" variant="standard" />

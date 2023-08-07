@@ -96,16 +96,16 @@ function App() {
         </div>
         <div className={mainbodydiv}>
           <div className={mainnav}>
-            <div className='container border rounded'>
+            <div className='container rounded'>
             <div className="row ">
-              <div className="col-3 border p-2" >
+              <div className="col-3 p-2" >
                     <span className=''>
                         <HomeIcon className='fs-6' />
                     </span >
                     /<span className='ps-1'>Dashboard</span >
                     <h6 className='ps-4'>Home</h6>
                 </div >
-              <div className="col-9 text-end p-2 border myhomenavbar ">
+              <div className="col-9 text-end p-2 myhomenavbar ">
                 <TextField className=' ' size="small" label="search" />
                 <button className='btn border-0'><AccountCircleIcon /></button>
                 <button className='btn border-0'><SettingsIcon /></button>
