@@ -107,106 +107,87 @@ function Profile() {
                                 <p>
                                     <span className='h6'> Social: </span>
                                 </p>
-                            </div></div>
+                            </div>
+                        </div>
                         <div className="col-lg-4 col-md-4 col-sm-12  myprofileroot">Convertation
-                            <div className=" ">
-                                <div className="container mt-3">
+                            <div className="container my-3">
+                                <div>
                                     <div className="d-flex flex-row">
                                         <div >
                                             <img className='rounded-circle ' src={img2} alt="" />
                                         </div>
                                         <div className='container'>
-                                            <p className=''>
-                                                Sophie B.
-                                                <p>
-                                                    Hi! I need more information..
-                                                </p>
+                                            <p className='my-0'>Sophie B.</p>
+                                            <p className='commentonprofile'>
+                                                Hi! I need more information..
                                             </p>
                                         </div>
-                                        <div className="w-25"><button className='btn border-0 text-primary'>REPLY</button></div>
+                                        <div className='m-auto'>
+                                            <button className='btn border-0 btn-sm text-primary'>REPLY</button>
+                                        </div>
                                     </div>
                                 </div>
-                                <div className="container">
-                                </div>
-                            </div>
-                            <div className=" flex-row">
-                                <div className="container">
+                                <div>
                                     <div className="d-flex flex-row">
                                         <div >
                                             <img className='rounded-circle ' src={img3} alt="" />
                                         </div>
                                         <div className='container'>
-                                            <p className=''>
-                                                Anne Marie
-                                                <p>
-                                                    Awesome work, can you..
-                                                </p>
+                                            <p className='my-0'>Anne Marie</p>
+                                            <p className='commentonprofile'>
+                                                Awesome work, can you..
                                             </p>
                                         </div>
-                                        <div className="w-25"><button className='btn border-0 text-primary text-primary'>REPLY</button></div>
+                                        <div className="m-auto">
+                                            <button className='btn border-0 btn-sm text-primary text-primary'>REPLY</button></div>
                                     </div>
                                 </div>
-                                <div className="container">
-                                </div>
-                            </div>
-                            <div className=" flex-row">
-                                <div className="container">
+                                <div>
                                     <div className="d-flex flex-row">
                                         <div >
                                             <img className='rounded-circle ' src={img4} alt="" />
                                         </div>
                                         <div className='container'>
-                                            <p className=''>
-                                                Ivanna
-                                                <p>
-                                                    About files I can..
-                                                </p>
+                                            <p className='my-0'>Ivanna</p>
+                                            <p className='commentonprofile'>
+                                                About files I can..
                                             </p>
                                         </div>
-                                        <div className="w-25"><button className='btn border-0 text-primary'>REPLY</button></div>
+                                        <div className="m-auto">
+                                            <button className='btn btn-sm border-0 text-primary'>REPLY</button>
+                                        </div>
                                     </div>
                                 </div>
-                                <div className="container">
-                                </div>
-                            </div>
-                            <div className=" flex-row">
-                                <div className="container">
+                                <div>
                                     <div className="d-flex flex-row">
                                         <div >
                                             <img className='rounded-circle ' src={img5} alt="" />
                                         </div>
                                         <div className='container'>
-                                            <p className=''>
-                                                Peterson
-                                                <p>
-                                                    Have a great afternoon..
-                                                </p>
+                                            <p className='my-0'>Peterson</p>
+                                            <p className='commentonprofile'>
+                                                Have a great afternoon..
                                             </p>
                                         </div>
-                                        <div className="w-25"><button className='btn border-0 text-primary'>REPLY</button></div>
+                                        <div className="m-auto">
+                                            <button className='btn btn-sm border-0 text-primary'>REPLY</button>
+                                        </div>
                                     </div>
                                 </div>
-                                <div className="container">
-                                </div>
-                            </div>
-                            <div className=" flex-row">
-                                <div className="container">
+                                <div>
                                     <div className="d-flex flex-row">
                                         <div >
                                             <img className='rounded-circle ' src={img6} alt="" />
                                         </div>
                                         <div className='container'>
-                                            <p className=''>
-                                                Nick Daniel
-                                                <p>
-                                                    Hi! I need more information..
-                                                </p>
+                                            <p className='my-0'>Nick Daniel</p>
+                                            <p className='commentonprofile'>
+                                                Hi! I need more information..
                                             </p>
                                         </div>
-                                        <div className="w-25"><button className='btn border-0 text-primary'>REPLY</button></div>
+                                        <div className="m-auto">
+                                            <button className='btn btn-sm border-0 text-primary'>REPLY</button></div>
                                     </div>
-                                </div>
-                                <div className="container">
                                 </div>
                             </div>
                         </div>

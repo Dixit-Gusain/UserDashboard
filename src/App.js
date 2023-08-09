@@ -27,22 +27,22 @@ import PersonIcon from '@mui/icons-material/Person';
 import LoginIcon from '@mui/icons-material/Login';
 import AssignmentIcon from '@mui/icons-material/Assignment';
 import { Link } from 'react-router-dom';
+import MainNavbar from './MainNavbar';
 
-function App() {
+function App(props) {
 
   const [mainSidenav, setmainSidenav] = useState("HomeNav");
   const [mainbodydiv, setmainbodydiv] = useState("HomeBody");
   const [mainnav, setmainnav] = useState("dashnavbar")
   const clickbtn = () => {
-    setmainSidenav("MYnewhomenav");
-    setmainbodydiv("myhomebody")
-    setmainnav("Mynewdashnavbar")
-
-  }
-  const showdata = () => {
     setmainSidenav("HomeNav");
     setmainbodydiv("HomeBody");
     setmainnav("dashnavbar");
+    
+  }
+  const clickshowdata = () => {
+    setmainSidenav("MYnewhomenav");
+    setmainnav("Mynewdashnavbar");
   }
   return (
     <>
@@ -96,24 +96,24 @@ function App() {
         </div>
         <div className={mainbodydiv}>
           <div className={mainnav}>
-            <div className='container rounded'>
+          <div className='container rounded'>
             <div className="row ">
-              <div className="col-3 p-2" >
+              <div className="col-lg-3 col-md-4 colsm-12 py-2" >
                     <span className=''>
                         <HomeIcon className='fs-6' />
                     </span >
                     /<span className='ps-1'>Dashboard</span >
                     <h6 className='ps-4'>Home</h6>
                 </div >
-              <div className="col-9 text-end p-2 myhomenavbar ">
+              <div className="col text-end py-2 myhomenavbar ">
                 <TextField className=' ' size="small" label="search" />
                 <button className='btn border-0'><AccountCircleIcon /></button>
                 <button className='btn border-0'><SettingsIcon /></button>
                 <button className='btn border-0'><NotificationsIcon /></button>
-                <button className='btn border-0'><DehazeIcon id='mybtn' onClick={showdata} /></button>
+                <button className='btn border-0'><DehazeIcon id='mybtn' onClick={clickshowdata}/></button>
               </div>
               </div>
-            </div > 
+            </div >
           </div>
           <div id="homebodycont1">
             <Routes>

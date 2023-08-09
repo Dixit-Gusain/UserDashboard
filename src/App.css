@@ -1,595 +1,613 @@
-  * {
-    box-sizing: border-box;
-    padding: 0%;
-    margin: 0%;
-  }
+* {
+  box-sizing: border-box;
+  padding: 0%;
+  margin: 0%;
+}
 
-  body {
-    background-color: rgb(240, 242, 245) !important
-  }
+body {
+  background-color: rgb(240, 242, 245) !important;
+  
+}
 
-  a {
-    text-decoration: none !important
-  }
+a {
+  text-decoration: none !important
+}
 
-  .DashbordHome {
-    display: flex;
-    flex-direction: row;
-    height: fit-content;
-    overflow: hidden;
-  }
+.DashbordHome {
+  display: flex;
+  flex-direction: row;
+  height: fit-content;
+  overflow: hidden;
+}
 
-  .Sidenavbar {
-    display: flex;
-    width: 80%;
-    position: fixed;
-    height: 670px;
-    margin-top: 0%;
-  }
+.Sidenavbar {
+  display: flex;
+  width: 80%;
+  position: fixed;
+  height: 670px;
+  margin-top: 0%;
+}
 
-  .NewHomenav {
-    display: none;
+.NewHomenav {
+  display: none;
 
-  }
+}
 
-  .Sidenavbar ul {
-    padding-left: 0%;
+.Sidenavbar ul {
+  padding-left: 0%;
+  width: 100%;
+}
+
+.Sidenavbar a {
+  font-size: 1.2rem;
+  color: rgb(251, 251, 251);
+}
+
+.Sidenavbar .sidenav_icon {
+  margin-right: 5%;
+}
+
+.Sidenavbar li {
+  list-style: none;
+  width: 100%;
+  margin: 10%;
+  padding: 2%;
+}
+
+.Sidenavbar li:hover {
+  color: rgb(255, 255, 255);
+  background-color: #444a52;
+  border-radius: 0.375rem;
+}
+
+.dashnavbar {
+  position: fixed;
+  overflow: visible;
+  z-index: 5;
+  width: 79%;
+  background-color: rgb(248, 251, 254);
+}
+@media screen and (max-width:1000px) {
+  .dashnavbar{
     width: 100%;
-  }
+    left: 0%;
+  }}
+  
+.Mynewdashnavbar {
+  position: fixed;
+  background-color: rgb(248, 251, 254);
+  width: 100%;
+  z-index: 5;
+  left: 0%;
+}
 
-  .Sidenavbar a {
-    font-size: 1.2rem;
-    color: rgb(251, 251, 251);
-  }
+.HomeNav {
+  width: 17%;
+  height: 95vh;
+  position: fixed;
+  color: rgb(37, 139, 228);
+  margin: 15px;
+  z-index: 6;
 
-  .Sidenavbar .sidenav_icon {
-    margin-right: 5%;
-  }
+}
 
-  .Sidenavbar li {
-    list-style: none;
-    width: 100%;
-    margin: 10%;
-    padding: 2%;
-  }
+.MYnewhomenav {
+  display: block;
+  position: fixed;
+  margin: 5px;
+  left: 0%;
+  width: 60%;
+  z-index: 6;
+}
 
-  .Sidenavbar li:hover {
-    color: rgb(255, 255, 255);
-    background-color: #444a52;
-    border-radius: 0.375rem;
-  }
-
-  .dashnavbar {
-    position: fixed;
-    overflow: visible;
-    z-index: 1;
-    width: 79%;
-    background-color: rgb(248, 251, 254);
-  }
-
-  @media screen and (max-width:1000px) {
-    .dashnavbar {
-      width: 100%;
-      top: 1%;
-    }
-  }
-
-  .Mynewdashnavbar {
-    width: 82%;
-  }
-
+@media screen and (max-width:1000px) {
   .HomeNav {
-    width: 17%;
-    height: 95vh;
-    position: fixed;
-    color: rgb(37, 139, 228);
-    margin: 15px;
-  }
-
-  .MYnewhomenav {
     display: none;
   }
+}
 
-  @media screen and (max-width:1000px) {
-    .HomeNav {
-      display: none;
-      width: 25%;
-      z-index: 1;
-    }
-  }
+.mybtn {
+  display: none;
+}
 
+@media screen and (max-width:1000px) {
   .mybtn {
-    display: none;
+    display: block;
   }
+}
+.myhomenavbar #mybtn {
+  display: none;
+}
 
-  @media screen and (max-width:1000px) {
-    .mybtn {
-      display: block;
-    }
-  }
+@media screen and (max-width:1000px) {
   .myhomenavbar #mybtn {
-    display: none;
+    display: block;
   }
+}
 
-  @media screen and (max-width:1000px) {
-    .myhomenavbar #mybtn {
-      display: block;
-    }
-  }
+.myhomenavbar button {
+  color: rgb(123, 128, 154);
+  padding: 5px;
+  /* padding: 7px */
+}
+/* @media screen and (max-width:1000px) {
+.myhomenavbar button{
+}
+} */
+.HomeBody {
+  position: relative;
+  width: 80%;
+  margin: 15px;
+  left: 18%;
+  color: rgb(52, 71, 103);
+}
 
-  .myhomenavbar button {
-    color: rgb(123, 128, 154);
-    padding: 7px
-  }
+.myhomebody {
+  width: 100%;
+}
 
+@media screen and (max-width:992px) {
   .HomeBody {
-    position: relative;
-    width: 80%;
-    margin: 15px;
-    left: 18%;
-    color: rgb(52, 71, 103);
-  }
-
-  .myhomebody {
     width: 100%;
+    left: 0%;
+    margin: 0%
   }
-
-  @media screen and (max-width:992px) {
-    .HomeBody {
-      width: 100%;
-      left: 0%;
-      margin: 0%
-    }
-  }
+}
 
 
+#homebodycont1 {
+  position: relative;
+  top: 8%;
+}
+
+@media screen and (max-width:1000px) {
   #homebodycont1 {
-    position: relative;
-    top: 8%;
-  }
-
-  @media screen and (max-width:1000px) {
-    #homebodycont1 {
-      width: 100%;
-      top: 5%;
-    }
-  }
-
-  .HomeBody .cardcont {
-    position: relative;
-    height: 130px;
-    justify-content: space-around;
-    align-content: space-around;
-    align-items: center;
-    justify-content: center;
-    background-color: rgb(255, 255, 255);
-    -webkit-box-shadow: 23px 28px 82px -68px rgba(38, 38, 38, 1);
-    -moz-box-shadow: 23px 28px 82px -68px rgba(38, 38, 38, 1);
-    box-shadow: 23px 28px 82px -68px rgba(38, 38, 38, 1);
-  }
-
-  .HomeBody .cardcont .smallcard {
-    height: 50%;
-    position: absolute;
-    width: 25%;
-    margin-left: 20px;
-    margin-top: -20px;
-    -webkit-box-shadow: 23px 28px 63px -68px rgba(38, 38, 38, 1);
-    -moz-box-shadow: 23px 28px 63px -68px rgba(38, 38, 38, 1);
-    box-shadow: 23px 28px 63px -68px rgba(38, 38, 38, 1);
-  }
-
-  .color1 {
-    background: linear-gradient(rgb(59, 59, 65), rgb(35, 35, 37));
-  }
-
-  .color2 {
-    background: linear-gradient(rgb(66, 156, 240), rgb(36, 126, 234));
-  }
-
-  .color3 {
-
-    background: linear-gradient(rgb(98, 184, 102), rgb(73, 165, 77));
-
-  }
-
-  .color4 {
-    background: linear-gradient(rgb(232, 57, 117), rgb(219, 33, 100));
-  }
-
-  .chartdata {
-    background-color: rgb(255, 255, 255);
-  }
-
-  .MyBar {
-    height: 80%;
     width: 100%;
+    top: 5%;
   }
+}
 
-  .chartdata .myiconwatch {
-    color: rgb(153, 156, 177);
-    padding: 3px;
-  }
+.HomeBody .cardcont {
+  position: relative;
+  height: 130px;
+  justify-content: space-around;
+  align-content: space-around;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(255, 255, 255);
+  -webkit-box-shadow: 23px 28px 82px -68px rgba(38, 38, 38, 1);
+  -moz-box-shadow: 23px 28px 82px -68px rgba(38, 38, 38, 1);
+  box-shadow: 23px 28px 82px -68px rgba(38, 38, 38, 1);
+}
 
-  .datainsidecontainer {
-    margin-top: -20px;
-  }
-  @media screen and (max-width:992px) {
-    
-    .datainsidecontainer{
-      margin-top: -3px;
-     
-    }
-  }
+.HomeBody .cardcont .smallcard {
+  height: 50%;
+  position: absolute;
+  width: 25%;
+  margin-left: 20px;
+  margin-top: -20px;
+  -webkit-box-shadow: 23px 28px 63px -68px rgba(38, 38, 38, 1);
+  -moz-box-shadow: 23px 28px 63px -68px rgba(38, 38, 38, 1);
+  box-shadow: 23px 28px 63px -68px rgba(38, 38, 38, 1);
+}
 
-  .mytableimg {
-    display: flex;
-    position: relative;
-    width: 1.5rem;
-    height: 1.5rem;
+.color1 {
+  background: linear-gradient(rgb(59, 59, 65), rgb(35, 35, 37));
+}
 
-  }
+.color2 {
+  background: linear-gradient(rgb(66, 156, 240), rgb(36, 126, 234));
+}
 
-  .tbimg1 {
-    position: absolute;
-    top: 0%;
-    left: 0%;
-    width: 100%;
-    overflow: hidden;
-    z-index: 1;
-    border-radius: 50%;
-    border: 2px solid white;
-  }
+.color3 {
 
-  .tbimg2 {
-    position: absolute;
-    z-index: 2;
-    top: 0%;
-    left: -10px;
-    width: 100%;
-    border-radius: 50%;
-    border: 2px solid white;
-  }
+  background: linear-gradient(rgb(98, 184, 102), rgb(73, 165, 77));
 
-  .tbimg3 {
-    position: absolute;
-    z-index: 3;
-    top: 0%;
-    left: -18px;
-    width: 100%;
-    border-radius: 50%;
-    border: 2px solid white;
-  }
+}
 
-  .tbimg4 {
-    position: absolute;
-    z-index: 4;
-    top: 0%;
-    left: -25px;
-    width: 100%;
-    border-radius: 50%;
-    border: 2px solid white;
-  }
+.color4 {
+  background: linear-gradient(rgb(232, 57, 117), rgb(219, 33, 100));
+}
 
-  .mytableimg:hover {
-    z-index: 5;
-  }
+.chartdata {
+  background-color: rgb(255, 255, 255);
+}
 
-  .mytbicon1 {
-    border-radius: 50%;
-    margin: 0%;
-    padding: 5px;
-    background: rgb(73, 165, 77);
-    color: aliceblue;
-  }
+.MyBar {
+  height: 80%;
+  width: 100%;
+}
 
-  .mytbicon2 {
-    border-radius: 50%;
-    margin: 0%;
-    padding: 5px;
-    color: rgb(255, 255, 255);
-    background-color: rgb(244, 67, 53);
-  }
+.chartdata .myiconwatch {
+  color: rgb(153, 156, 177);
+  padding: 3px;
+}
 
-  .mytbicon3 {
-    border-radius: 50%;
-    margin: 0%;
-    padding: 5px;
-    color: rgb(255, 255, 255);
-    background-color: rgb(26, 115, 232);
+.datainsidecontainer {
+  margin-top: -20px;
+}
+@media screen and (max-width:992px) {
+  
+  .datainsidecontainer{
+    margin-top: -3px;
+   
   }
+}
 
-  .mytbicon4 {
-    border-radius: 50%;
-    padding: 5px;
-    margin: 0%;
-    color: rgb(255, 255, 255);
-    background-color: rgb(251, 140, 0);
-  }
+.mytableimg {
+  display: flex;
+  position: relative;
+  width: 1.5rem;
+  height: 1.5rem;
 
-  .mytbicon5 {
-    border-radius: 50%;
-    padding: 5px;
-    margin: 0%;
-    color: rgb(255, 255, 255);
-    background-color: rgb(233, 30, 99);
-  }
+}
 
-  .varticalline {
-    margin-top: -25px;
-    margin-left: 10px;
-    border-left: 3px solid rgb(222, 226, 230);
-    height: 50px;
+.tbimg1 {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  overflow: hidden;
+  z-index: 1;
+  border-radius: 50%;
+  border: 2px solid white;
+}
 
-  }
+.tbimg2 {
+  position: absolute;
+  z-index: 2;
+  top: 0%;
+  left: -10px;
+  width: 100%;
+  border-radius: 50%;
+  border: 2px solid white;
+}
 
-  .mytbdiv span {
-    color: rgb(118, 122, 128);
-    font-size: small;
-  }
-  .mytablecontainer img {
-    width: 2.5rem;
-    border-radius: 50%;
-  }
+.tbimg3 {
+  position: absolute;
+  z-index: 3;
+  top: 0%;
+  left: -18px;
+  width: 100%;
+  border-radius: 50%;
+  border: 2px solid white;
+}
 
-  #mytable img {
-    width: 1.8rem;
-  }
-  .color5 {
-    color: white;
-    background: linear-gradient(195deg, rgb(66, 66, 74), rgb(25, 25, 25));
-  }
+.tbimg4 {
+  position: absolute;
+  z-index: 4;
+  top: 0%;
+  left: -25px;
+  width: 100%;
+  border-radius: 50%;
+  border: 2px solid white;
+}
 
-  .mynotificationdiv {
-    display: none;
-  }
+.mytableimg:hover {
+  z-index: 5;
+}
 
-  .mynotification {
-    position: absolute;
-    bottom: 4%;
-    right: 1%;
-    background-color: rgb(255, 255, 255);
-    color: rgb(147, 151, 173);
-    height: 100px;
-    border-radius: 0.3rem;
-    width: 350px;
-    z-index: 1;
-  }
+.mytbicon1 {
+  border-radius: 50%;
+  margin: 0%;
+  padding: 5px;
+  background: rgb(73, 165, 77);
+  color: aliceblue;
+}
 
-  .mynotification1 {
-    position: absolute;
-    bottom: 4%;
-    right: 1%;
-    background-color: rgb(61, 151, 238);
-    color: rgb(246, 247, 249);
-    height: 100px;
-    border-radius: 0.3rem;
-    width: 350px;
-  }
+.mytbicon2 {
+  border-radius: 50%;
+  margin: 0%;
+  padding: 5px;
+  color: rgb(255, 255, 255);
+  background-color: rgb(244, 67, 53);
+}
 
-  .billcnt p {
-    font-size: 13px;
-  }
+.mytbicon3 {
+  border-radius: 50%;
+  margin: 0%;
+  padding: 5px;
+  color: rgb(255, 255, 255);
+  background-color: rgb(26, 115, 232);
+}
 
-  .billcnt img {
-    width: 2rem;
-  }
+.mytbicon4 {
+  border-radius: 50%;
+  padding: 5px;
+  margin: 0%;
+  color: rgb(255, 255, 255);
+  background-color: rgb(251, 140, 0);
+}
 
-  .fontcolr {
-    color: rgb(135, 138, 160);
-  }
+.mytbicon5 {
+  border-radius: 50%;
+  padding: 5px;
+  margin: 0%;
+  color: rgb(255, 255, 255);
+  background-color: rgb(233, 30, 99);
+}
 
-  #myatmcard {
-    background: url(https://demos.creative-tim.com/material-dashboard-…pattern-tree.156bb943ac7fd244f10c115d085e085e.svg) 0% 0% / cover transparent;
-  }
+.varticalline {
+  margin-top: -25px;
+  margin-left: 10px;
+  border-left: 3px solid rgb(222, 226, 230);
+  height: 50px;
 
+}
+.tablebar{
+  /* height: 10%; */
+  width: 20%;
+  margin: 0%;
+  padding: 0%;
+}
+
+.mytbdiv span {
+  color: rgb(118, 122, 128);
+  font-size: small;
+}
+.mytablecontainer img {
+  width: 2.5rem;
+  border-radius: 50%;
+}
+#mytable img {
+  width: 1.8rem;
+}
+.color5 {
+  color: white;
+  background: linear-gradient(195deg, rgb(66, 66, 74), rgb(25, 25, 25));
+}
+
+.mynotificationdiv {
+  display: none;
+}
+
+.mynotification {
+  position: absolute;
+  bottom: 4%;
+  right: 1%;
+  background-color: rgb(255, 255, 255);
+  color: rgb(147, 151, 173);
+  height: 100px;
+  border-radius: 0.3rem;
+  width: 350px;
+  z-index: 1;
+}
+
+.mynotification1 {
+  position: absolute;
+  bottom: 4%;
+  right: 1%;
+  background-color: rgb(61, 151, 238);
+  color: rgb(246, 247, 249);
+  height: 100px;
+  border-radius: 0.3rem;
+  width: 350px;
+}
+
+.billcnt p {
+  font-size: 13px;
+}
+
+.billcnt img {
+  width: 2rem;
+}
+
+.fontcolr {
+  color: rgb(135, 138, 160);
+}
+
+#myatmcard {
+  background: url(https://demos.creative-tim.com/material-dashboard-…pattern-tree.156bb943ac7fd244f10c115d085e085e.svg) 0% 0% / cover transparent;
+}
+
+.notification {
+  background-color: white;
+  color: aliceblue;
+  width: 75%;
+  margin: auto;
+  margin-top: 25px;
+  padding: 20px;
+  border-radius: 0.3rem;
+}
+
+@media screen and (max-width:992px) {
   .notification {
-    background-color: white;
-    color: aliceblue;
-    width: 75%;
-    margin: auto;
-    margin-top: 25px;
-    padding: 20px;
-    border-radius: 0.3rem;
+    width: 100%;
   }
+}
 
-  @media screen and (max-width:992px) {
-    .notification {
-      width: 100%;
-    }
-  }
+.notificationdiv2 {
+  width: 75%;
+  background-color: white;
+  margin: auto;
+  padding: 20px;
+  margin-top: 20px;
+}
 
+@media screen and (max-width:992px) {
   .notificationdiv2 {
-    width: 75%;
-    background-color: white;
-    margin: auto;
-    padding: 20px;
-    margin-top: 20px;
+    width: 100%;
   }
+}
 
-  @media screen and (max-width:992px) {
-    .notificationdiv2 {
-      width: 100%;
-    }
-  }
+.notification h4 {
+  color: rgb(52, 71, 103);
+}
 
-  .notification h4 {
-    color: rgb(52, 71, 103);
-  }
+.notification a {
+  color: aliceblue;
+}
 
-  .notification a {
-    color: aliceblue;
-  }
+.myNotcontainer {
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 0.3rem;
+}
 
-  .myNotcontainer {
-    display: flex;
-    flex-direction: row;
-    padding: 10px;
-    margin-top: 10px;
-    border-radius: 0.3rem;
-  }
+.profilebgimg {
+  background-image: url(./images/bg-profile.jpeg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 0.3rem;
+  position: relative;
+  height: 15.7rem;
+  opacity: 0.7;
+}
 
-  .profilebgimg {
-    background-image: url(./images/bg-profile.jpeg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    border-radius: 0.3rem;
-    position: relative;
-    height: 15.7rem;
-    opacity: 0.7;
-  }
+#MyProfilediv {
+  position: relative;
+  top: 60%;
+  margin-top: -5%;
+  width: 94%;
+  border-radius: 0.3rem;
+  z-index: 1;
+}
 
+@media screen and (max-width:992px) {
   #MyProfilediv {
-    position: relative;
-    top: 60%;
-    margin-top: -5%;
-    width: 94%;
-    border-radius: 0.3rem;
-    z-index: 1;
-  }
-
-  @media screen and (max-width:992px) {
-    #MyProfilediv {
-      width: 90%;
-    }
-  }
-
-  @media screen and (max-width:600px) {
-    #MyProfilediv {
-      width: 85%;
-    }
-  }
-
-  .myprofile .profile img {
-    width: 5rem;
-  }
-
-  .myprofiletablecontainer img {
-    width: 1.5rem;
-    border: 50%;
-  }
-
-  .myprofileroot img {
-    width: 2.5rem;
-  }
-
-  .myprofilecard img {
-    object-fit: contain;
-  }
-
-  .Signinpage {
-    position: relative;
     width: 90%;
-    height: 50vh;
-    margin: auto;
   }
+}
+.myprofile .profile img {
+  width: 5rem;
+}
 
+.myprofiletablecontainer img {
+  width: 1.5rem;
+  border: 50%;
+}
+
+.myprofileroot img {
+  width: 2.5rem;
+}
+
+.myprofilecard img {
+  object-fit: contain;
+}
+.commentonprofile{
+  display: flex;
+  font-size: 13px;
+  font-family: Roboto, Helvetica, Arial, sans-serif;
+  color: #7b809a;
+}
+.commentonprofile button{
+  size: 2px;
+}
+.Signinpage {
+  position: relative;
+  width: 90%;
+  height: 50vh;
+  margin: auto;
+}
+
+.Signindiv1 {
+  position: absolute;
+  height: 20vh;
+  left: 0;
+  right: 0;
+  margin: auto;
+  top: 2%;
+  width: 37%;
+  text-align: center;
+  color: white;
+  z-index: 1;
+}
+
+@media screen and (max-width:992px) {
   .Signindiv1 {
-    position: absolute;
-    height: 20vh;
-    left: 0;
-    right: 0;
-    margin: auto;
-    top: 2%;
-    width: 37%;
-    text-align: center;
-    color: white;
-    z-index: 1;
+    width: 87%;
   }
+}
 
-  @media screen and (max-width:992px) {
-    .Signindiv1 {
-      width: 87%;
-    }
+@media screen and (max-width:600px) {
+  .Signindiv1 {
+    width: 87%;
   }
+}
 
-  @media screen and (max-width:600px) {
-    .Signindiv1 {
-      width: 87%;
-    }
-  }
+.Signindiv2 {
+  position: relative;
+  width: 40%;
+  top: 10%;
+  margin: auto;
+  margin-top: 35px;
+  padding: 27px;
+  padding-top: 150px;
+}
 
+@media screen and (max-width:994px) {
   .Signindiv2 {
-    position: relative;
-    width: 40%;
-    top: 10%;
-    margin: auto;
-    margin-top: 35px;
-    padding: 27px;
-    padding-top: 150px;
+    width: 90%;
   }
+}
 
-  @media screen and (max-width:994px) {
-    .Signindiv2 {
-      width: 90%;
-    }
+@media screen and (max-width:600px) {
+  .Signindiv2 {
+    width: 90%;
   }
+}
 
-  @media screen and (max-width:600px) {
-    .Signindiv2 {
-      width: 90%;
-    }
-  }
+.SignUPdiv1 {
+  position: absolute;
+  height: 18vh;
+  width: 57%;
+  top: -40%;
+  left: 0%;
+  right: 0%;
+  margin: auto;
+  text-align: center;
+  color: white;
+  z-index: 1;
+}
 
+
+@media screen and (max-width:994px) {
   .SignUPdiv1 {
-    position: absolute;
-    height: 18vh;
-    width: 57%;
-    top: -40%;
-    left: 0%;
-    right: 0%;
-    margin: auto;
-    text-align: center;
-    color: white;
-    z-index: 1;
+    width: 87%;
   }
+}
 
-
-  @media screen and (max-width:994px) {
-    .SignUPdiv1 {
-      width: 87%;
-    }
+@media screen and (max-width:600px) {
+  .SignUPdiv1 {
+    width: 87%;
   }
+}
 
-  @media screen and (max-width:600px) {
-    .SignUPdiv1 {
-      width: 87%;
-    }
-  }
+.SignUPdiv2 {
+  position: absolute;
+  width: 60%;
+  top: -35%;
+  left: 0%;
+  right: 0%;
+  margin: auto;
+  padding: 140px 60px 30px 60px;
+}
 
+@media screen and (max-width:994px) {
   .SignUPdiv2 {
-    position: absolute;
-    width: 60%;
-    top: -35%;
-    left: 0%;
-    right: 0%;
-    margin: auto;
-    padding: 140px 60px 30px 60px;
+    width: 90%;
   }
+}
 
-  @media screen and (max-width:994px) {
-    .SignUPdiv2 {
-      width: 90%;
-    }
+@media screen and (max-width:600px) {
+  .SignUPdiv2 {
+    width: 90%;
   }
+}
 
-  @media screen and (max-width:600px) {
-    .SignUPdiv2 {
-      width: 90%;
-    }
-  }
+.SignINbackground {
+  background-image: url(./images/bg-sign-in-basic.jpeg);
+  background-size: cover;
+  height: 80vh;
+  background-position: center;
+}
 
-  .SignINbackground {
-    background-image: url(./images/bg-sign-in-basic.jpeg);
-    background-size: cover;
-    height: 80vh;
-    background-position: center;
-  }
-
-  .SignUPbackground {
-    background-image: url(./images/bg-sign-up-cover.jpeg);
-    background-size: cover;
-    background-position: center;
-    height: 30vh;
-  }
+.SignUPbackground {
+  background-image: url(./images/bg-sign-up-cover.jpeg);
+  background-size: cover;
+  background-position: center;
+  height: 30vh;
+}
