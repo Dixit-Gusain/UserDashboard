@@ -98,6 +98,7 @@ a {
   left: 0%;
   width: 60%;
   z-index: 6;
+  height: 90vh;
 }
 
 @media screen and (max-width:1000px) {
@@ -128,12 +129,7 @@ a {
 .myhomenavbar button {
   color: rgb(123, 128, 154);
   padding: 5px;
-  /* padding: 7px */
-}
-/* @media screen and (max-width:1000px) {
-.myhomenavbar button{
-}
-} */
+ }
 .HomeBody {
   position: relative;
   width: 80%;
@@ -230,10 +226,15 @@ a {
   
   .datainsidecontainer{
     margin-top: -3px;
-   
+    
   }
 }
 
+@media screen and (max-width:992px) {
+#homepagetable{
+  overflow:scroll;
+}
+}
 .mytableimg {
   display: flex;
   position: relative;
@@ -502,7 +503,11 @@ a {
   height: 50vh;
   margin: auto;
 }
-
+@media screen and (max-width:992px) {
+.Signinpage{
+  top: 15%;
+}
+}
 .Signindiv1 {
   position: absolute;
   height: 20vh;
@@ -566,6 +571,7 @@ a {
 
 @media screen and (max-width:994px) {
   .SignUPdiv1 {
+    top: -38%;
     width: 87%;
   }
 }
@@ -588,13 +594,15 @@ a {
 
 @media screen and (max-width:994px) {
   .SignUPdiv2 {
+    top: -30%;
     width: 90%;
   }
 }
 
 @media screen and (max-width:600px) {
   .SignUPdiv2 {
-    width: 90%;
+    width: 98%;
+    padding: 140px 27px 60px 27px;
   }
 }
 
