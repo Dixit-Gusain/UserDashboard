@@ -22,9 +22,9 @@ a {
 
 .Sidenavbar {
   display: flex;
-  width: 80%;
+  width: 100%;
   position: fixed;
-  height: 670px;
+  height: 90vh;
   margin-top: 0%;
 }
 
@@ -34,8 +34,8 @@ a {
 }
 
 .Sidenavbar ul {
-  padding-left: 0%;
   width: 100%;
+
 }
 
 .Sidenavbar a {
@@ -49,8 +49,8 @@ a {
 
 .Sidenavbar li {
   list-style: none;
-  width: 100%;
-  margin: 10%;
+  width: 85%;
+  margin: 15px 0px 15px 0px;
   padding: 2%;
 }
 
@@ -96,9 +96,9 @@ a {
   position: fixed;
   margin: 5px;
   left: 0%;
-  width: 60%;
+  width:60%;
   z-index: 6;
-  height: 90vh;
+  /* height: 90vh; */
 }
 
 @media screen and (max-width:1000px) {
