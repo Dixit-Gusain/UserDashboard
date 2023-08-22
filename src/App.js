@@ -19,6 +19,7 @@ import NotificationsIcon from '@mui/icons-material/Notifications';
 import HomeIcon from '@mui/icons-material/Home';
 import TextField from '@mui/material/TextField';
 import DehazeIcon from '@mui/icons-material/Dehaze';
+import { BsArrowLeftSquare, BsArrowRightSquare, BsArrowDownSquare } from 'react-icons/bs'
 import { MdDashboard } from 'react-icons/md';
 import TableViewIcon from '@mui/icons-material/TableView';
 import ReceiptLongIcon from '@mui/icons-material/ReceiptLong';
@@ -38,7 +39,7 @@ function App(props) {
     setmainSidenav("HomeNav");
     setmainbodydiv("HomeBody");
     setmainnav("dashnavbar");
-    
+
   }
   const clickshowdata = () => {
     setmainSidenav("MYnewhomenav");
@@ -47,7 +48,7 @@ function App(props) {
   return (
     <>
       <div className='container-fluid d-flex flex-row '>
-        <div className='d-flex flex-coloum'>
+        <div className='d-flex flex-coloum '>
           <div className={mainSidenav}>
             <div className="rounded color1">
               < div className='container text-end mybtn'>
@@ -55,6 +56,23 @@ function App(props) {
               </div>
               <nav className="Sidenavbar btn-group" >
                 <ul >
+                  <div className='text-center text-white mt-4 px-2 '>
+                    <div className='d-flex flex-row '>
+                      <div className='d-flex flex-column'>
+                        <div>
+                          <BsArrowLeftSquare />
+                          <BsArrowRightSquare />
+                        </div>
+                        <div>
+                          <BsArrowDownSquare />
+                        </div>
+                      </div>
+                      <div className='m-2'>
+                        <h6>Material Dashboard</h6>
+                      </div>
+                    </div>
+                    <hr className='text-info me-5' />
+                  </div>
                   <li href="">
                     <Link to="/" >
                       <MdDashboard className='sidenav_icon' />Dashbord
@@ -96,22 +114,22 @@ function App(props) {
         </div>
         <div className={mainbodydiv}>
           <div className={mainnav}>
-          <div className='container rounded'>
-            <div className="row ">
-              <div className="col-lg-3 col-md-4 colsm-12 py-2" >
-                    <span className=''>
-                        <HomeIcon className='fs-6' />
-                    </span >
-                    /<span className='ps-1'>Dashboard</span >
-                    <h6 className='ps-4'>Home</h6>
+            <div className='container rounded'>
+              <div className="row ">
+                <div className="col-lg-3 col-md-4 colsm-12 py-2" >
+                  <span className=''>
+                    <HomeIcon className='fs-6' />
+                  </span >
+                  /<span className='ps-1'>Dashboard</span >
+                  <h6 className='ps-4'>Home</h6>
                 </div >
-              <div className="col text-end py-2 myhomenavbar ">
-                <TextField className=' ' size="small" label="search" />
-                <button className='btn border-0'><AccountCircleIcon /></button>
-                <button className='btn border-0'><SettingsIcon /></button>
-                <button className='btn border-0'><NotificationsIcon /></button>
-                <button className='btn border-0'><DehazeIcon id='mybtn' onClick={clickshowdata}/></button>
-              </div>
+                <div className="col text-end py-2 myhomenavbar ">
+                  <TextField className=' ' size="small" label="search" />
+                  <button className='btn border-0'><AccountCircleIcon /></button>
+                  <button className='btn border-0'><SettingsIcon /></button>
+                  <button className='btn border-0'><NotificationsIcon /></button>
+                  <button className='btn border-0'><DehazeIcon id='mybtn' onClick={clickshowdata} /></button>
+                </div>
               </div>
             </div >
           </div>
