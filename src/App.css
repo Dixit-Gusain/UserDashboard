@@ -128,7 +128,7 @@ a {
 
 .myhomenavbar button {
   color: rgb(123, 128, 154);
-  padding: 5px;
+  padding: 2px;
  }
 .HomeBody {
   position: relative;
@@ -149,8 +149,6 @@ a {
     margin: 0%
   }
 }
-
-
 #homebodycont1 {
   position: relative;
   top: 8%;
