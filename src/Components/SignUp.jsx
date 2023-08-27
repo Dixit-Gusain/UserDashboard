@@ -3,7 +3,6 @@ import React from 'react';
 import TextField from '@mui/material/TextField';
 
 function SignUp() {
-
     return (
         <>
             <div className='SignUPbackground rounded'>
@@ -18,11 +17,9 @@ function SignUp() {
                     </div>
                 </div>
                 <div className="SignUPdiv2 bg-white border-0 rounded d-flex flex-column">
-
                     <TextField className='my-1' id="standard-basic" label="Name" variant="standard" />
                     <TextField className='my-1' id="standard-basic" label="Email" variant="standard" />
                     <TextField className='my-1' id="standard-basic" label="Password" variant="standard" />
-
                     <div className="form-check my-4">
                         <input className="form-check-input" type="checkbox" id="appflexSwitchCheckChecked" />
                         <label className="form-check-label" >

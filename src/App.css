@@ -334,7 +334,6 @@ a {
 
 }
 .tablebar{
-  /* height: 10%; */
   width: 20%;
   margin: 0%;
   padding: 0%;
@@ -502,7 +501,8 @@ a {
   margin: auto;
 }
 @media screen and (max-width:992px) {
-.Signinpage{
+  .Signinpage{
+  height: 62vh;
   top: 15%;
 }
 }
@@ -556,7 +556,7 @@ a {
 .SignUPdiv1 {
   position: absolute;
   height: 18vh;
-  width: 57%;
+  width: 40%;
   top: -40%;
   left: 0%;
   right: 0%;
@@ -569,25 +569,26 @@ a {
 
 @media screen and (max-width:994px) {
   .SignUPdiv1 {
-    top: -38%;
+    top: -30%;
     width: 87%;
   }
 }
 
 @media screen and (max-width:600px) {
   .SignUPdiv1 {
-    width: 87%;
+    top: -27%;
+    width: 90%;
   }
 }
 
 .SignUPdiv2 {
   position: absolute;
-  width: 60%;
+  width: 45%;
   top: -35%;
   left: 0%;
   right: 0%;
   margin: auto;
-  padding: 140px 60px 30px 60px;
+  padding: 140px 40px 30px 40px;
 }
 
 @media screen and (max-width:994px) {
@@ -610,7 +611,6 @@ a {
   height: 80vh;
   background-position: center;
 }
-
 .SignUPbackground {
   background-image: url(./images/bg-sign-up-cover.jpeg);
   background-size: cover;

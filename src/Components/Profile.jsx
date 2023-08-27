@@ -17,7 +17,7 @@ import home4 from "../images/home-decor-4.jpeg";
 function Profile() {
     return (
         <>
-            <div className="container-fluid border myprofile mt-0 position-relative">
+            <div className="container-fluid myprofile mt-0 position-relative">
                 <div className="container-fluid profilebgimg border">
                 </div>
                 <div className="container-fluid bg-white p-3" id='MyProfilediv'>
