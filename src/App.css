@@ -506,6 +506,12 @@ a {
   top: 15%;
 }
 }
+@media screen and (max-width:600px) {
+  .Signinpage{
+  height: 45vh;
+ 
+}
+}
 .Signindiv1 {
   position: absolute;
   height: 20vh;
@@ -565,8 +571,6 @@ a {
   color: white;
   z-index: 1;
 }
-
-
 @media screen and (max-width:994px) {
   .SignUPdiv1 {
     top: -30%;
@@ -576,7 +580,7 @@ a {
 
 @media screen and (max-width:600px) {
   .SignUPdiv1 {
-    top: -27%;
+    top: -33%;
     width: 90%;
   }
 }
